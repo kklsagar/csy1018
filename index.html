@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+.header, .footer {
+    background-color: Red;
+    color: white;
+    padding: 15px;
+}
+.column {
+    float: left;
+    padding: 15px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.menu {
+    width: 25%;
+}
+.content {
+    width: 75%;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: #33b5e5;
+    color: #ffffff;
+}
+.menu li:hover {
+    background-color: #0099cc;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Sagar Sharma Kuikel</h1>
+</div>
+
+<div class="clearfix">
+  <div class="column menu">
+    <ul>
+      <li>Home Page</li>
+      <li>My CV</li>
+      <li>Contact Me</li>
+      <li>Send a Message</li>
+    </ul>
+  </div>
+
+  <div class="column content">
+    <h1>The City</h1>
+    <p><b>Your Details Here</b></p>
+    <p>Your Details HereYour Details HereYour Details HereYour Details HereYour Details Here.</p>
+  </div>
+</div>
+
+<div class="footer" >
+<Font align=center>  <p>Footer Text</p>
+</font>
+</div>
+<div class="fleft">Copyright © 2012. Valley FM Pvt.Ltd.
+ All Rights Reserved.</div>
+ <a href="Main.html" target="_blank">Click here</a>
+</body>
+</html>
